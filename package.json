@@ -1,0 +1,47 @@
+{
+  "name": "simple-greeting-app",
+  "version": "1.0.0",
+  "description": "A simple console-based greeting application built with vanilla JavaScript",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "./test_app.sh",
+    "test:node": "node -e \"const app = require('./src/app.js'); console.log('Testing app functions...'); app.greetUser('TestUser'); app.showAllGreetings(); console.log('Current time:', app.getCurrentTime()); console.log('Time-based greeting:', app.getTimeBasedGreeting()); console.log('Random greeting:', app.getRandomGreeting());\"",
+    "dev": "node --watch src/app.js",
+    "lint": "node -c src/app.js",
+    "help": "echo 'Available scripts: start, test, test:node, dev, lint, help'"
+  },
+  "keywords": [
+    "greeting",
+    "console",
+    "javascript",
+    "nodejs",
+    "simple",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/simple-greeting-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/simple-greeting-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/simple-greeting-app#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "package.json"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "preferGlobal": false,
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+} 
