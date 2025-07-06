@@ -8,7 +8,7 @@ const greetings = [
     "Good afternoon!",
     "Good evening!",
     "Welcome!",
-    "Hi there!",
+    "Hello there!",
     "Greetings!",
     "Hola!"
 ];
