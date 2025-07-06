@@ -18,5 +18,8 @@ jobs:
         - name: Checkout code
           uses: actions/checkout@v4.2.2
         
+        - name: Make test script executable
+          run: chmod +x ./test_app.sh
+        
         - name: Run Tests
           run: npm test
