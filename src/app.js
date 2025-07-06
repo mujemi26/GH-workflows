@@ -10,7 +10,7 @@ const greetings = [
     "Welcome!",
     "Hello there!",
     "Greetings!",
-    "Hola!"
+    "Oy!"
 ];
 
 // Function to get current time
